@@ -1,46 +1,56 @@
-# Getting Started with Create React App
+# 🎫Event Tracker
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O Event Tracker é uma aplicação web intuitiva e responsiva desenvolvida para simplificar o gerenciamento de eventos pessoais e profissionais. Com ele, você pode adicionar, visualizar e editar eventos de forma rápida e eficiente. 
 
-## Available Scripts
+## 📝 Sobre o Projeto
 
-In the project directory, you can run:
+A aplicação foi construída com foco em uma experiência de usuário limpa e direta, utilizando o poder do React para um front-end dinâmico e o JSON Server para simular uma API back-end de forma leve e prática.
 
-### `npm start`
+## 🛠️ Técnicas e tecnologias utilizadas
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+O projeto foi desenvolvido utilizando as seguintes tecnologias:
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+- `Typescript` - Linguagem que adiciona tipagem estática ao JavaScript.
+- `React.js` - Biblioteca para construção de interfaces dinâmicas.
+- `Vite` - Ferramenta de construção rápida para desenvolvimento com JavaScript moderno.
+- `Styled-components` - Para estilização de componentes com CSS-in-JS.
+- `Context API` - Gerenciamento de estado de forma reativa.
+- `Recoil` - Biblioteca de gerenciamento de estado para React, que utiliza o conceito de átomos e seletores para gerenciar o estado global de forma reativa e otimizada.
+- `Figma` - Para prototipagem e design visual do projeto.
 
-### `npm test`
+E outras dependências e ferramentas auxiliares.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## 💻 Como usar
+### ☁️Clonar o repositório:
+1. Para usar a aplicação, clone o repositório em seu ambiente local, você pode fazer isso executando o seguinte comando no terminal: git clone https://github.com/GGasparotto-code/Event-Tracker.git;
 
-### `npm run build`
+### ⬇️Fazendo o download do repositório:
+1. Clique no botão "Code" neste repositório e faça o download;
+2. Salve o arquivo ZIP em seu computador e descompacte-o;
+3. Abra a pasta descompactada no VS Code. Para isso, siga os passos abaixo:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+> - **File > Open Folder** (ou uma opção similar).
+> - Procure o local onde o projeto foi salvo e selecione a pasta (se o projeto foi baixado como um arquivo ZIP, será necessário extraí-lo antes).
+> - Clique em **OK**.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## ▶️ Executar o projeto
+Para rodar o projeto, será necessário executar os seguintes comandos:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+1. Instalação das Dependências:
+Primeiro, você precisa instalar todas as dependências do projeto. Abra o terminal na pasta raiz do projeto e execute:
+> ```npm install```
 
-### `npm run eject`
+2. Executar o Backend (JSON Server):
+O projeto utiliza o json-server para simular uma API REST. Se você ainda não o tem instalado, execute o comando abaixo:
+> ```npm install json-server```
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+Em seguida, inicie o servidor para que o front-end possa se conectar. Mantenha este terminal aberto enquanto estiver usando a aplicação.
+> ```npm run server```
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+3. Executar o Frontend (React com Vite)
+Abra um novo terminal na pasta raiz do projeto. Agora, inicie a aplicação React:
+> ```npm start```
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+A aplicação será iniciada e você poderá acessá-la em seu navegador através do endereço http://localhost:3000.
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+Abra em [http://localhost:3000](http://localhost:3000) para visualizá-lo no navegador.
