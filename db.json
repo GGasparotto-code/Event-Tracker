@@ -1,0 +1,30 @@
+{
+    "eventos": [{
+        "descricao": "Estudar React",
+        "inicio": "2025-09-15T09:00",
+        "fim": "2025-09-15T13:00",
+        "completo": false,
+        "id": 101
+    },
+    {
+        "descricao": "Estudar UX Design",
+        "inicio": "2025-09-14T09:00",
+        "fim": "2025-09-15T14:00",
+        "completo": false,
+        "id": 102
+    },
+    {
+        "descricao": "Estudar Figma",
+        "inicio": "2025-09-12T09:00",
+        "fim": "2025-09-12T13:00",
+        "completo": false,
+        "id": 103
+    },
+    {
+        "descricao": "Estudar Recoil",
+        "inicio": "2025-09-16T09:00",
+        "fim": "2025-09-16T11:00",
+        "completo": false,
+        "id": 104
+    }]
+}
